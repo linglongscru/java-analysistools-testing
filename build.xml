@@ -45,7 +45,7 @@
         <findbugs home="${findbugs.home.dir}"
                   workHard="true"
                   output="xml:withMessages"
-                  outputFile="${report.findbugs.dir}/findbugs.xml"
+                  outputFile="${report.findbugs.dir}/findbugsXml.xml"
         >
             <class location="${basedir}/target/classes" />
             <auxClasspath>
@@ -75,7 +75,7 @@
                     failureProperty="checkstyle.failure"
                     failOnViolation="false"
         >
-            <formatter type="xml" tofile="${report.checkstyle.dir}/checkstyle_report.xml" />
+            <formatter type="xml" tofile="${report.checkstyle.dir}/checkstyle-result.xml" />
             <fileset dir="${src.dir}" includes="**/*.java" />
         </checkstyle>
     </target>

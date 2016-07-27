@@ -197,7 +197,7 @@
                 <!-- Specifying configuration here will take effect on the execution of "mvn checkstyle:checkstyle",
                      but will not take effect on the execution of "mvn site"  -->
                 <configuration>
-                    <configLocation>checkstyle.xml</configLocation>
+                    <configLocation>checkstyle-config/sun_checks.xml</configLocation>
                     <failOnViolation>false</failOnViolation>
                 </configuration>
             </plugin>
