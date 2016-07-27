@@ -15,9 +15,9 @@ $ maven findbugs:findbugs
 $ mvn checkstyle:checkstyle 
 ```
 analysis results:
-findbugs-maven: `target/findbugsXml.xml`
-findbugs-ant: `report/findbugs/findbugsXml.xml`
+- findbugs-maven: `target/findbugsXml.xml`
+- findbugs-ant: `report/findbugs/findbugsXml.xml`
 
-checkstyle-maven: `target/checkstyle-result.xml`
-checkstyle-ant: `report/checkstyle/checkstyle-result.xml`
+- checkstyle-maven: `target/checkstyle-result.xml`
+- checkstyle-ant: `report/checkstyle/checkstyle-result.xml`
 
