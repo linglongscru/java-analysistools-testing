@@ -164,6 +164,8 @@
                 <artifactId>findbugs-maven-plugin</artifactId>
                 <version>3.0.1</version>
                 <configuration>
+		    <includeFilterFile>findbugs-config/findbugs-security-include.xml</includeFilterFile>
+                    <excludeFilterFile>findbugs-config/findbugs-security-exclude.xml</excludeFilterFile>
 		    <findbugsXmlOutput>true</findbugsXmlOutput>
 		    <!-- Optional directory to put findbugs xdoc xml report -->
 		    <findbugsXmlOutputDirectory>target/xmlOutput</findbugsXmlOutputDirectory>
